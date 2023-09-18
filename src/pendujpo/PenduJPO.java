@@ -286,9 +286,20 @@ public class PenduJPO {
      * @return
      */
     static int saisirNombreReponse() {
-        Scanner sc = new Scanner(System.in);
-        int reponse = sc.nextInt();
-        return reponse;
+        // faire un scanner pour récupérer le nombre et de déterminer si c'est un nombre ou pas
+        Scanner scanner = new Scanner(System.in);
+        int nombre = 0;
+        boolean nombreCorrect = false;
+        while (!nombreCorrect) {
+            try {
+                nombre = scanner.nextInt();
+                nombreCorrect = true;
+            } catch (Exception e) {
+                System.out.println("Veuillez choisir un nombre");
+                scanner.next();
+            }
+        }
+        return nombre;
     }
 
     static void menuPendu() {
