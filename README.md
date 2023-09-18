@@ -10,7 +10,7 @@ This game was made for my [university](https://www.iut.u-bordeaux.fr/general/but
 
 The game is in java, so you need to have java installed on your computer
 
-The game is in french, but you can change the words in the file `src/mots.txt`, but all the ascii art are in french (you can change them too (they are hard coded))
+The game is in french, but you can change the words in the file `src/mots.java`, but all the ascii art are in french (you can change them too (they are hard coded))
 
 All the game is made to be play in the console, so you can't play it in a GUI, the game menu is made with ascii art made by code, so you can simply change the display of the game with changing the code the variable `CHAR_AFFICHAGE_HORIZONTAL` and `CHAR_AFFICHAGE_VERTICAL` and at last `CHAR_LETTRE_CACHEE` (the last one is the letter that is hidden in the word)
 
