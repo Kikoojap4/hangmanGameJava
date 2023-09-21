@@ -31,3 +31,17 @@ This menu is made to explain the rules and how to play the game, because there i
 ### 2. play
 
 This menu is made to play the game, you can choose the game mode with the number of the menu you want to go, and press enter
+
+## Precautions
+
+The half of the game is made with ascii art, the other half is made by code, so becare of the code, if you change the code, you can break the game
+
+## Rights
+
+You can do wathever you want with the code, I will not updated it anymore, it was a project for my university, so I don't care about it anymore.
+
+Sell it, use it, break it, copy it, it's your choice.
+
+## Authors
+
+* **[Me](https://github.com/Kikoojap4) & my friends from my university**
